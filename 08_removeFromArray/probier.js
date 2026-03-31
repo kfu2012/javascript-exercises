@@ -14,5 +14,4 @@ const removeFromArray = function(arr, ...num) {
     return arr.filter(remove);
      
 };
-// Do not edit below this line
-module.exports = removeFromArray;
+console.log(removeFromArray([1,2,3], 1,2,3))
